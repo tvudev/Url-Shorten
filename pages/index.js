@@ -94,7 +94,7 @@ export default function Home({ urlList }) {
 
 export async function getServerSideProps(context) {
   //call api on load
-  const res = await fetch("http://localhost:3000/api/url");
+  const res = await fetch("https://url-shorten-rouge.vercel.app/api/url");
   const urlList = await res.json();
 
   return {
