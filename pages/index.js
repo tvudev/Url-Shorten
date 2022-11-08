@@ -72,7 +72,7 @@ export default function Home({ urlList }) {
                         }
                       </td>
                       <td>
-                        <a target="_blank" href={`/api/${urlObject.code}`}>
+                        <a target="_blank" href={`/api/${urlObject.code}`} rel="noreferrer">
                           {urlObject.code}
                         </a>
                       </td>
